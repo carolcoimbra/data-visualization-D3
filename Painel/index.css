@@ -1,0 +1,272 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #F0F0F0;
+  color: #333;
+}
+h1 {
+	font-family: "Tahoma";
+    font-size: 35;
+    font-weight: 400;
+    color: #696969;
+    text-align: center;
+    margin: 2px;
+
+}
+h2{
+	font-family: "Tahoma";
+    font-size: 25;
+    font-weight: 400;
+    color: #808080;
+    text-align: center;
+    margin: 0px;
+}
+h3{
+    font-family: "Tahoma";
+    font-size: 15;
+    font-weight: 200;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+footer {
+	font-family: "Tahoma";
+  font-size: 10;
+  font-weight: 200;
+  color: #999999;
+  text-align: right;
+  margin: 0px;
+}
+
+#buttons{
+	position:absolute;
+	top:410px;
+	left:400px; 
+}
+
+
+rect.contour {
+    stroke: #E6E6E6;
+    stroke-width:2px;   
+}
+
+div.tooltipEvasion {
+    position: absolute;    
+    text-align: center;    
+    width: 90px;          
+    height: 70px;        
+    padding: 2px;      
+    font: 10px Tahoma;    
+    background: rgba(0, 0, 0, 0.8);
+    border: 0px;    
+    border-radius: 2px;    
+    pointer-events: none;    
+    color: #FFFFFF;  
+}
+
+#names{
+	position:absolute;
+	float: middle;
+	top:1000px;
+	left:85%;
+}
+
+#evasion{
+	position:absolute;
+	float:left;
+  margin: 0px;
+	top: 800px;
+	left:50px
+}
+#schoolLevel {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+#evasionNorth {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+#evasionNortheast {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+#evasionMidwest {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+#evasionSoutheast {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+#evasionSouth {
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+
+.state_contour {
+  fill: none;
+  stroke: none;
+  stroke-linejoin: round;
+  fill-opacity: 0.2;
+}
+
+.subunitNorte{
+    fill: #000000;
+}
+.subunitNordeste{
+    fill: #000000;
+}
+.subunitCentroOeste{
+    fill: #000000;
+}
+.subunitSudeste{
+    fill: #000000;
+}
+.subunitSul{
+    fill: #000000;
+}
+
+
+.hidden { 
+  display: none; 
+}
+div.tooltip {
+  position: absolute;    
+  text-align: center;    
+  width: 130px;          
+  height: 45px;        
+  padding: 2px;      
+  font: 10px Tahoma;    
+  background: rgba(0, 0, 0, 0.8);
+  border: 0px;    
+  border-radius: 2px;    
+  pointer-events: none;    
+  color: #FFFFFF;    
+}
+
+div.tooltipDonut {
+  position: absolute;    
+  text-align: center;    
+  width: 150px;          
+  height: 60px;        
+  padding: 2px;      
+  font: 10px Tahoma;    
+  background: rgba(0, 0, 0, 0.8);
+  border: 0px;    
+  border-radius: 2px;    
+  pointer-events: none;    
+  color: #FFFFFF;    
+}
+
+#squareOne {    
+position:absolute;
+top:50px;
+left:300px;
+width:350px;
+height: 350px; 
+}
+#squareTwo {    
+position:absolute;
+top:130px;
+left:700px;
+width:450px;
+height: 280px;
+}
+#squareThree {    
+position:absolute;
+top:450px;
+left:300px;
+width:270px;
+height: 270px;
+}
+#squareFour {    
+position:absolute;
+top:480px;
+left:600px;
+width:300px;
+height: 300px;
+}
+#squareFive {    
+position:absolute;
+top:440px;
+left:850px;
+width:380px;
+height: 280px;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  text-align: right;
+  padding: 3px;
+  margin: 1px; 
+  color: white;
+}
+
+.widget {
+  display: inline-block;
+  border: 1px solid #AAA;
+  background: white;
+}
+
+#chart {
+  height: 400px;
+  width: 500px;
+}
+
+svg {
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.value {
+  font-size: 9px;
+  font-weight: 300;
+  fill: #696969;
+}
+
+.label {
+  font-size: 9px;
+  fill: #696969;
+}
+
+.axis {
+  path {
+    fill: none;
+  }
+  .tick line {
+  stroke-width: 1;
+  stroke: red;
+  };
+ 
+  font-size: 8px;
+  fill: #696969;
+}
+
+.slice {
+  font-size: 12pt;
+  font-family: Tahoma;
+  fill: #696969; 	
+} 
+
+.title {
+	font-family: Tahoma;
+  font-size: 10px;	
+  font-weight: bold;  
+  fill: #696969; 	
+}
+
+.legend {
+	font-size: 7pt;
+  font-family: Tahoma;
+  fill: #696969; 
+}
